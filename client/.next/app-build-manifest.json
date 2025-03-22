@@ -16,20 +16,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/(dashboard)/collaborate/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/css/app/(dashboard)/collaborate/page.css",
+      "static/chunks/app/(dashboard)/collaborate/page.js"
     ],
-    "/(auth)/signin/[[...signin]]/page": [
+    "/(dashboard)/collaborate/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/signin/[[...signin]]/page.js"
-    ],
-    "/(auth)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/layout.js"
+      "static/chunks/app/(dashboard)/collaborate/layout.js"
     ]
   }
 }

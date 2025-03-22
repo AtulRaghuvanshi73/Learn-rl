@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    color: #111827;
+    overflow: hidden;
+  }
+  
+  .editorHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+  }
+  
+  .editorContainer {
+    position: relative;
+    flex-grow: 1;
+    overflow: auto;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  }
+
+  .editorFooter {
+    padding: 8px 12px;
+    border-top: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

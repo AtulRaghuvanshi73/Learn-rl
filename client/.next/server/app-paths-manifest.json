@@ -1,5 +1,6 @@
 {
-  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(dashboard)/user/profile/[[...profile]]/page": "app/(dashboard)/user/profile/[[...profile]]/page.js",
-  "/(auth)/signin/[[...signin]]/page": "app/(auth)/signin/[[...signin]]/page.js"
+  "/(dashboard)/collaborate/page": "app/(dashboard)/collaborate/page.js",
+  "/(dashboard)/collaborate/liveblocks-auth/route": "app/(dashboard)/collaborate/liveblocks-auth/route.js"
 }

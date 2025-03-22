@@ -1,7 +1,7 @@
 import { ClerkLoading, useClerk, useUser } from '@clerk/nextjs';
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useState } from 'react';
-import { BookOpen, Briefcase, ChevronLeft, ChevronRight, DollarSign, LogOut, Menu, Settings, User } from 'lucide-react';
+import { BookOpen, Briefcase, ChevronLeft, ChevronRight, DollarSign, LogOut, Menu, Pencil, Settings, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
@@ -19,12 +19,14 @@ const AppSidebar = () => {
     const navLinks = {
         student: [
             {icon: BookOpen, label: "Courses", href: "/user/courses"},
+            {icon:Pencil, label: "Collaborate", href: "/collaborate"},
             {icon: Briefcase, label: "Billing", href: "/user/billing"},
             {icon: User, label: "Profile", href: "/user/profile"},
             {icon: Settings, label: "Settings", href: "/user/settings"}
         ],
         teacher: [
             {icon: BookOpen, label: "Courses", href: "/teacher/courses"},
+            {icon:Pencil, label: "Collaborate", href: "/collaborate"},
             {icon: DollarSign, label: "Billing", href: "/teacher/billing"},
             {icon: User, label: "Profile", href: "/teacher/profile"},
             {icon: Settings, label: "Settings", href: "/teacher/settings"}
@@ -52,24 +54,16 @@ const AppSidebar = () => {
         >
             {/* Header with branding */}
             <div className="py-5 px-4 border-b border-gray-800 flex items-center justify-between">
-                {collapsed ? (
-                    <button 
-                        onClick={toggleSidebar} 
-                        className="text-gray-400 hover:text-white mx-auto"
-                    >
-                        <ChevronRight className="h-5 w-5" />
-                    </button>
-                ) : (
-                    <>
-                        <h1 className="text-white font-bold text-xl">Learn-rl</h1>
-                        <button 
-                            onClick={toggleSidebar} 
-                            className="text-gray-400 hover:text-white"
-                        >
-                            <ChevronLeft className="h-5 w-5" />
-                        </button>
-                    </>
-                )}
+                <h1 className="text-white font-bold text-xl">Learn-rl</h1>
+                <button 
+                    onClick={toggleSidebar} 
+                    className="text-gray-400 hover:text-white"
+                >
+                    {collapsed ? 
+                        <ChevronRight className="h-5 w-5" /> : 
+                        <ChevronLeft className="h-5 w-5" />
+                    }
+                </button>
             </div>
 
             {/* Navigation Links */}

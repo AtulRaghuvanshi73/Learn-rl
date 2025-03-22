@@ -1,0 +1,119 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/(dashboard)/collaborate/liveblock-components/CollaborativeEditor.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CollaborativeEditor_container__9jQkB {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    color: #111827;
+    overflow: hidden;
+  }
+  
+  .CollaborativeEditor_editorHeader__WnqcN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+  }
+  
+  .CollaborativeEditor_editorContainer__SPFwJ {
+    position: relative;
+    flex-grow: 1;
+    overflow: auto;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  }
+
+  .CollaborativeEditor_editorFooter__p5Ev5 {
+    padding: 8px 12px;
+    border-top: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/(dashboard)/collaborate/liveblock-components/Avatar.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Avatar_avatars__Lv_24 {
+    display: flex;
+    padding: 0 0.75rem;
+  }
+  
+  .Avatar_avatar__ql_yc {
+    display: flex;
+    place-content: center;
+    position: relative;
+    border: 4px solid #fff;
+    border-radius: 9999px;
+    width: 42px;
+    height: 42px;
+    background-color: #9ca3af;
+    margin-left: -0.75rem;
+  }
+  
+  .Avatar_avatar__ql_yc:before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    padding: 5px 10px;
+    color: white;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    margin-top: 10px;
+    z-index: 1;
+    background: black;
+    white-space: nowrap;
+  }
+  
+  .Avatar_avatar__ql_yc:hover:before {
+    opacity: 1;
+  }
+  
+  .Avatar_avatar_picture__v8GD2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+  }
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/(dashboard)/collaborate/liveblock-components/Toolbar.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Toolbar_toolbar__Oatil {
+    display: flex;
+    padding: 1em;
+    gap: 6px;
+  }
+  
+  .Toolbar_button__U5O2E {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 32px;
+    width: 32px;
+    background: #fff;
+    color: #1f2937;
+    border: none;
+    box-shadow:
+      rgba(0, 0, 0, 0.12) 0 4px 8px 0,
+      rgba(0, 0, 0, 0.02) 0 0 0 1px;
+  }
+  
+  .Toolbar_button__U5O2E:hover {
+    color: #111827;
+    box-shadow:
+      rgba(0, 0, 0, 0.16) 0 5px 8px 0,
+      rgba(0, 0, 0, 0.04) 0 0 0 1px;
+  }
+  
+  .Toolbar_button__U5O2E:focus-visible {
+    outline-offset: 2px;
+  }
