@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { ArrowRight, BookOpen, Users, Code, Video, Zap, Globe, Clock } from "lucide-react"
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 
 // Course data with image paths
 const featuredCourses = [
@@ -189,6 +189,8 @@ const SkeletonLoader = () => {
 
 const Landing = () => {
   const [isLoading, setIsLoading] = useState(true)
+  const videoSectionRef = useRef(null)
+  const videoIframeRef = useRef(null)
   
   useEffect(() => {
     // Simulate content loading
@@ -198,6 +200,38 @@ const Landing = () => {
     
     return () => clearTimeout(timer)
   }, [])
+
+  useEffect(() => {
+    // Skip if still loading or refs aren't available
+    if (isLoading || !videoSectionRef.current || !videoIframeRef.current) return
+
+    // Create an Intersection Observer to detect when video section is visible
+    const options = {
+      root: null, // use the viewport
+      rootMargin: '0px',
+      threshold: 0.5 // trigger when at least 50% of the video is visible
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Video section is visible, update iframe source to include autoplay
+          const currentSrc = videoIframeRef.current.src
+          if (!currentSrc.includes('autoplay=1')) {
+            videoIframeRef.current.src = `${currentSrc}`
+          }
+        }
+      })
+    }, options)
+
+    // Start observing the video section
+    observer.observe(videoSectionRef.current)
+
+    // Clean up observer on component unmount
+    return () => {
+      observer.disconnect()
+    }
+  }, [isLoading])
 
   if (isLoading) {
     return <SkeletonLoader />
@@ -271,8 +305,8 @@ const Landing = () => {
         </div>
       </div>
 
-      {/* Video Demo Section */}
-      <div className="py-16">
+      {/* Video Demo Section - UPDATED WITH YOUTUBE VIDEO */}
+      <div ref={videoSectionRef} className="py-16">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center text-center mb-12">
             <div className="inline-flex items-center justify-center p-2 mb-4 rounded-full">
@@ -285,14 +319,17 @@ const Landing = () => {
             </p>
           </div>
 
-          <div className="relative mx-auto max-w-4xl aspect-video rounded-xl overflow-hidden border-2 border-gray-700 bg-gray-900 flex items-center justify-center">
-            <div className="text-center p-8">
-              <Clock className="h-16 w-16 text-blue-400 mx-auto mb-4 opacity-50" />
-              <h3 className="text-xl font-medium text-gray-300">Demo Video Coming Soon</h3>
-              <p className="text-gray-400 mt-2">
-                Our team is preparing an interactive demonstration of the platform&apos;s capabilities.
-              </p>
-            </div>
+          <div className="relative mx-auto max-w-4xl aspect-video rounded-xl overflow-hidden border-2 border-gray-700">
+            <iframe 
+              ref={videoIframeRef}
+              src="https://www.youtube.com/embed/MGAUOh6T1FE?autoplay=1"
+              width="100%" 
+              height="100%" 
+              allow="autoplay; encrypted-media; picture-in-picture" 
+              allowFullScreen
+              className="absolute inset-0"
+              title="Platform Demo Video"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -359,3 +396,4 @@ const Landing = () => {
   )
 }
 export default Landing
+

@@ -3,44 +3,60 @@
     "2b202bd6f2abbdf8ba54e391cee7adeff9ccfd13": {
       "workers": {
         "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/signin/[[...signin]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/signup/[[...signup]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
         "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/page": "rsc",
+        "app/(auth)/signin/[[...signin]]/page": "rsc",
+        "app/(auth)/signup/[[...signup]]/page": "rsc",
         "app/_not-found/page": "rsc"
       }
     },
     "722093e898600a5d866c11d6546738b81707264a": {
       "workers": {
         "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/signin/[[...signin]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/signup/[[...signup]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
         "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/page": "rsc",
+        "app/(auth)/signin/[[...signin]]/page": "rsc",
+        "app/(auth)/signup/[[...signup]]/page": "rsc",
         "app/_not-found/page": "rsc"
       }
     },
     "8690a9a865bbc6c30a5d27816a8ea39b90b225fd": {
       "workers": {
         "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/signin/[[...signin]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/signup/[[...signup]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!",
         "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/page": "rsc",
+        "app/(auth)/signin/[[...signin]]/page": "rsc",
+        "app/(auth)/signup/[[...signup]]/page": "rsc",
         "app/_not-found/page": "rsc"
       }
     },
     "6bf18048dd1d12378d88f07d42e589aba104931e": {
       "workers": {
         "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/signin/[[...signin]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/signup/[[...signup]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
         "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fvedantrai%2Fvsc%2FLearn-rl%2Fclient%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "action-browser",
+        "app/(auth)/signin/[[...signin]]/page": "action-browser",
+        "app/(auth)/signup/[[...signup]]/page": "action-browser",
         "app/_not-found/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "io+gG3nKGbcGOCVeYTAd+77OuESKtPADul3xgDuRaQo="
+  "encryptionKey": "N7FBRH3Kd7fDr4AggTWWo6v6Cw+7ydYF5Z3AcyRrCtc="
 }
